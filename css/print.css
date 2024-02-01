@@ -1,0 +1,125 @@
+/*** GLOBAL SETTING ***/
+body {margin:0; padding:0;font:normal 13px 'Roboto', sans-serif;; color:#000000; line-height:normal;}
+/*** GLOBAL SELECTORS ***/
+a{ color:#c81221; }
+a:hover{ color:#000000;} 
+:root{
+    --brown-color: #b68e76;
+    --light-color: #f1e8e3;
+}
+/*Main COntent*/
+/* #wrapper{ width:943px; margin:0 auto;} */
+h3 span,  h4 span, h5 span, p span{display: block;}
+h5{ font-size: 32px; color: #000000; font-weight: 200; margin: 20px 0;}
+.container{ width:1190px; margin:0 auto;}
+.headersct{background: var(--light-color);}
+.headersct .container{background-color: var(--brown-color); width: 90%; border-bottom-left-radius:50px; text-align: center; border-bottom-right-radius:50px; text-align: center; box-shadow: rgba(0, 0, 0, 0.551) 0px 5px 15px; padding-top: 80px; position: relative; z-index: 1;} 
+.headersct .headertop{display: flex; justify-content: space-around; align-items: center; padding: 40px 0; }
+.headersct .headertop ul{display: flex; justify-content: space-between; align-items: center;gap: 20px;}
+.headersct .headertop ul li a{font-size: 20px; color: var(--light-color); font-weight: 600;}
+.socialmedia ul li a { background: url(../images/socialmedia.png) no-repeat 0 0; height: 22px; width: 22px; display: block;}
+.socialmedia ul li a:hover {background-color: var(--light-color);}
+.socialmedia ul li .facebook{background-position: -28px 0;}
+.socialmedia ul li .youtube{background-position: -56px 0;} 
+.qualitysct p{font-size: 18px; color: #000000; font-weight: 400; border-left: 1px solid black; padding-left: 20px;}
+.bannersct{background: var(--light-color) url(../images/banner-img.png) no-repeat top center; background-size: 84% 100%; position: relative;}
+.bannersct .container{padding: 150px 0;}
+.bannersct .content{width: 50%;}
+.bannersct .rightbox{position: absolute; width: 300px; height: auto; background-color: #fff; top: 5%; right: 0; float: right; box-shadow: rgba(0, 0, 0, 0.551) 0px 5px 15px;border-top-left-radius: 80px; border-bottom-left-radius: 80px; }
+.bannersct .rightbox h4{margin: 40px;}
+ h4{font-size: 18px;}
+.addorder{margin: 40px;}
+.addorder .cake{ border-radius: 40px;}
+.addorder .add{padding-left: 20px;}
+.addorder a{font-size: 16px; font-weight: 500; color: #000000; margin: 20px; display: block; text-decoration: underline;}
+.bannersct .content h2{ font-size: 32px; color: #000000; font-weight: 700;}
+.bannersct .content select{width: 49%; font-size: 16px; text-transform: capitalize; border: none; padding: 16px; border-radius: 35px; display: block; margin: 30px 0; appearance: none;}
+/* .bannersct .content .nextbtn{margin: 0 9%;} */
+.bannersct .content .nextbtn a{width: 150px; background: var(--brown-color); color: #fff; font-size: 20px; font-weight: 500; padding: 10px; display: inline-block; text-align: center; border-radius: 30px;}
+.bannersct .content .nextbtn a:hover{background-color: #fff; color: var(--brown-color);}
+.bannersct .content h4{ font-size: 24px; color: #000000; font-weight: 600;  text-align: left;margin: 30px 0; text-decoration: underline;}
+.bannersct .content p{font-size: 16px; }
+.signupsct{background-color: var(--light-color); padding: 150px 0;}
+.signupsct .signup{ background-color: #fff; display: flex; justify-content: space-between; align-items: center;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 60px; width: 80%; margin: 0 auto;}
+.signupsct .signup .content{width: 50%; background: linear-gradient(90deg, rgba(255,255,255,1) 77%, rgba(205,205,205,1) 100%); border-top-left-radius: 60px; border-bottom-left-radius: 60px; padding: 80px 40px;}
+.signupsct .signup .content h4{font-size: 45px;}
+.signupsct .signup .content p{font-size: 15px; color: #000000; font-weight: 500; }
+.signupsct .signup .content .registerbtn{margin: 35px 0;}
+.signupsct .signup .content .registerbtn a{width: 150px; background: var(--brown-color); color: #fff; font-size: 25px; font-weight: 500; padding: 10px; display: inline-block; text-align: center; border-radius: 20px; text-transform: capitalize; border: 1px solid var(--brown-color);}
+.signupsct .signup .content .registerbtn a:hover{background-color: #fff; color: var(--brown-color);}
+.signupsct .signup .content .registerbtn a + a{margin-left: 30px;}
+.signupsct .signup .content h5{color: #000000; font-size: 32px; font-weight: 100;}
+.signupsct .signup .content .wishes{font-size: 23px; font-weight: 500; text-decoration: underline;}
+.signupsct .signup .imgsct{width: 50%;}
+.signupsct .signup .imgsct img{width: 100%; height: 100%;}
+.signupsct .qualitysct {text-align: center; margin: 3% 38%;}
+.celebratesct{background: var(--light-color) url(../images/bg-img.png) no-repeat; height: 100%; width: 100%; background-size: cover; padding-bottom: 100px;}
+.celebratesct .content{ float: right; width: 30%; padding: 20px;}
+.celebratesct .content h3{font-size: 75px; line-height: 80px; font-weight: 100; }
+.celebratesct .content h4{font-weight: 700;}
+.celebratesct .content h5{font-size: 30px; font-weight: 400;font-family: 'Barlow', sans-serif;}
+.celebratesct .content .formsct ul li input{font-size: 16px; font-weight: 600; width: 100%; box-sizing: border-box; padding: 20px; border: none; border-radius: 30px; margin: 10px auto; color: #000000; }
+.celebratesct .content .formsct ul li input::placeholder{color: #000000;}
+.celebratesct .content .registerbtn a{width: 93%; background: var(--brown-color); color: #fff; font-size: 25px; font-weight: 500; padding: 12px; border: 1px solid var(--brown-color); display: inline-block; text-align: center; border-radius: 30px; margin: 10px auto; text-transform: capitalize;}
+.celebratesct .content .registerbtn a:hover{background-color: #fff; color: var(--brown-color);}
+.dessertsct{background-color: var(--light-color); padding: 180px 0 0;}
+.dessertsct .dessert{ background-color: var(--brown-color); width: 80%;  display: flex; justify-content: center; align-items: center; margin: 0 auto; border-radius: 60px; padding: 50px 0 77px;}
+.dessertsct .dessert .imgsct{width: 50%;position: relative;}
+.dessertsct .dessert .imgsct::before{content: ' '; position: absolute; background: url(../images/cake.jpg)no-repeat; height: 529px; width: 100%; top: -251px; left: 0; background-size: 150% 100%; background-position: right; border-bottom-left-radius: 60px; border-top-left-radius: 60px;}
+.dessertsct .dessert .content{width: 50%; padding-right: 50px;}
+.dessertsct .dessert .content h3{font-size: 24px; padding-top: 10px;}
+.dessertsct .dessert .content img, .dessertsct .dessert .content h3,.dessertsct .dessert .content ul{padding-left: 50px;}
+.dessertsct .dessert .content ul li{display: flex; justify-content: space-between; align-items: center; margin: 12px 0;}
+.dessertsct .dessert .content ul li p{font-size: 25px; font-weight: 200;}
+.dessertsct .dessert .content ul li p span{font-size: 12px; font-weight: 500; line-height: 15px;}
+.dessertsct .dessert .content h5{font-size: 30px; background-color: #000000; padding: 20px 0; color: #fff; margin: 0;width: 37.2%; position: absolute; text-align: center; border-bottom-right-radius: 60px;}
+.dessertsct .container .para{float: right; padding: 30px 0; margin-right: 18%;}
+.branchsct{background: var(--light-color) url(../images/bg-img-2.png) no-repeat; background-size: cover; padding: 50px 0 80px;}
+.branchsct .findbranch{padding: 130px 80px;}
+.branchsct .findbranch h5{font-size: 54px;}
+.branchsct .findbranch h4{font-size: 40px; margin: 0;}
+.branchsct .findbranch .findbtn a{width: 250px; background: var(--brown-color); color: #fff; font-size: 25px; font-weight: 500; padding: 10px; display: inline-block; text-align: center; border-radius: 30px; text-transform: capitalize; margin: 25px auto; border: 1px solid var(--brown-color);}
+.branchsct .findbranch .findbtn a:hover{background-color: #fff; color: var(--brown-color);}
+.specailsct .container h3{font-size: 60px; font-weight: 200; text-align: right; margin: 6% 20% 0;}
+.specailsct{background: url(../images//bg-img-3.png) no-repeat; padding: 100px 0; background-size: cover; width: auto; height: 838px;}
+.specailsct .chfovdrink{display: flex; justify-content: space-around; align-items: center; background-color: #fff; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; width: 65%; float: right;  right: 0; position: absolute;border-top-left-radius: 80px; margin-top: 2%; border-bottom-left-radius: 80px;}
+.specailsct .chfovdrink .leftsct{background: linear-gradient(90deg, rgba(255,255,255,1) 77%, rgba(205,205,205,1) 100%); width: 50%; padding: 40px;border-top-left-radius: 80px; border-bottom-left-radius: 80px;}
+.specailsct .chfovdrink .leftsct .ragistersct a{width: 150px; background: var(--brown-color); color: #fff; font-size: 18px; font-weight: 500; padding: 5px; display: inline-block; text-align: center; border-radius: 30px; text-transform: capitalize; margin: 25px auto; border: 1px solid var(--brown-color);}
+.specailsct .chfovdrink .leftsct .ragistersct img{margin: 25px;}
+.specailsct .chfovdrink .leftsct .ragistersct a:hover{background-color: #fff; color: var(--brown-color);}
+.specailsct .chfovdrink .leftsct .ragistersct .blacksct{background-color: #000000; border: 1px solid #000000;}
+.specailsct .chfovdrink .leftsct .ragistersct .blacksct:hover{background-color: #fff; color: #000000;}
+.specailsct .chfovdrink .leftsct h4{font-size: 45px; margin: 0;}
+.specailsct .chfovdrink .leftsct ul {margin: 20px 0;}
+.specailsct .chfovdrink .leftsct ul li{padding: 10px 0 0; font-weight: 700;}
+.specailsct .chfovdrink .rightsct{width: 50%; padding: 30px;}
+.specailsct .chfovdrink .rightsct .addorder{display: flex; justify-content: center; align-items: center; margin: 30px 0;}
+.specailsct .chfovdrink .rightsct .addorder a{display: inline;}
+.eventsct{background: linear-gradient(0deg, rgba(241,232,227,1) 20%, rgba(210,208,206,1) 100%); position: relative; text-align: center; padding: 100px 0;}
+.eventsct::before{content: ' '; position: absolute; background: url(../images/star.png)no-repeat; background-size: 82% 100%; top: 0; left: 0; height: 500px; width: 100%}
+.eventsct .eventcontent h3{font-size: 40px; font-weight: 300; padding: 70px 0 25px;}
+.eventsct .eventcontent .findbtn a{width: 350px; background: var(--brown-color); color: #fff; font-size: 25px; font-weight: 500; padding: 10px; display: inline-block; text-align: center; border-radius: 30px; text-transform: capitalize; margin: 25px auto; border: 1px solid var(--brown-color);}
+.eventsct .eventcontent .findbtn a:hover{background-color: #fff; color: var(--brown-color);}
+.signupsct .signup .content .registerbtn .resrvbtnd{width: 300px;}
+.signupsct .signup .content .information{font-size: 20px; color: var(--brown-color); text-decoration: underline; font-weight: 500; margin-bottom: 20px;}
+.signupsct .signup .content .linenone{text-decoration: none;}
+.signupsct .signup .btmimgsct{width: 50%; position: relative;}
+.signupsct .signup .btmimgsct::before{content: ''; position: absolute; background: url(../images/btm-img.jpg) no-repeat; height: 770px; width: 100%; top: -385px; left: 0; background-size: 150% 100%;  background-position: right; border-bottom-right-radius: 60px; border-top-right-radius: 60px;}
+.scndsct{padding: 100px 0 70px;}
+.bottomsct{background-color: var(--light-color);}
+.bottomsct .container{background-color: var(--brown-color); width: 90%; border-top-left-radius: 50px; text-align: center; border-top-right-radius: 50px;  box-shadow: rgb(12 12 12 / 20%) 0 -28px 21px; padding: 80px 0 ; position: relative; z-index: 1;}
+.bottomsct .qualitysct{text-align: center; margin: 3% 38%;}
+.bottomsct .btmcontent{display: flex; justify-content: space-around; align-items: center;}
+.leftcntn .socialmedia{text-align: left;}
+.leftcntn .socialmedia ul li{display: inline-block; }
+.leftcntn ul{display: inline-table;}
+.leftcntn ul + ul{margin-left: 70px;}
+.leftcntn ul li{margin-top: 10px; text-align: left;}
+.leftcntn ul li a{font-size: 20px; color: var(--light-color); }
+.rightcntn h5{font-size: 30px; font-weight: 400;font-family: 'Barlow', sans-serif; text-align: left;}
+.rightcntn .formsct ul li input{font-size: 16px; font-weight: 600; width: 300px; box-sizing: border-box; padding: 12px 25px; border: none; border-radius: 30px; margin: 10px auto; color: #000000; }
+.rightcntn .formsct ul li input::placeholder{color: #000000;}
+.rightcntn .registerbtn a{width: 300px; background: #000000; color: #fff; font-size: 25px; font-weight: 500; padding: 6px 0; border: 1px solid var(--brown-color); display: inline-block; text-align: center; border-radius: 30px; margin: 10px auto; text-transform: capitalize;}
+.rightcntn .registerbtn a:hover{background-color: #fff; color: var(--brown-color);}
+
+
